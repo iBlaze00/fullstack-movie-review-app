@@ -21,7 +21,20 @@ This repository contains the backend code for the Movie Review Application, buil
 3. **Replace `<password>`**: In the connection string, replace `<password>` with your database user's password.
 4. **Connect**: Click **Connect** to ensure that you can access your MongoDB database.
 
-### 3. Run the Application
+### 3. Create a .env File
+
+1. **Create a .env file in the root directory of your project with the following variables**:
+   - MONGO_DATABASE=your_database_name
+   - MONGO_USER=your_mongo_userdirectory.
+   - MONGO_PASSWORD=your_mongo_password
+   - MONGO_CLUSTER=your_mongo_cluster_url
+  
+### 4. Configure Spring Boot to ensure application.properties has defined variables
+
+1. **Open application.properties**:
+   - Navigate to src/main/resources/application.properties.
+   
+### 5. Run the Application
 
 1. **Open IntelliJ IDEA**:
    - Import the project if necessary.
@@ -33,7 +46,7 @@ This repository contains the backend code for the Movie Review Application, buil
 
    This will start the Spring Boot application and expose it on `http://localhost:8080`.
 
-### 4. Test the Backend
+### 6. Test the Backend
 
 1. **Open Postman**:
    - Download and install [Postman](https://www.postman.com/) if you haven't already.
