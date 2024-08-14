@@ -20,7 +20,7 @@ This directory contains the frontend code for the Movie Review Application, deve
 ### 2. Set Up Ngrok
 
 1. **Open Ngrok**:
-   - Open Ngrok 
+   - Open Ngrok (Make sure backend is running)
    - Enter `ngrok http 8080` in the Ngrok command input.
 
 2. **Copy the Ngrok URL**:
