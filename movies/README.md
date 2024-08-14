@@ -33,6 +33,7 @@ This repository contains the backend code for the Movie Review Application, buil
 
 1. **Open application.properties**:
    - Navigate to src/main/resources/application.properties.
+2. **Ensure application.properties has defined variables**
    
 ### 5. Run the Application
 
